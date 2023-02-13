@@ -14,7 +14,7 @@
 
 Hi, I'm Egor Shalagin, a keen full-stack software engineer from Russia. My passion for software is coming up with ideas and bringing them to life by creating useful and usable services. I pay a lot of attention to learning new areas of programming and the quality of the code of what i create.
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/developers-gif.gif?raw=true" width="400" height="300" />
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/developers-gif.gif" width="400" height="300" />
 
 **languages and tools:** 
 
