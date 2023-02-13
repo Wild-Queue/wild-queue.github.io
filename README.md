@@ -4,7 +4,7 @@
     <img align="left" alt="Egor's LinkedIN" width="30px" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/icons/linkedin.svg"></a>
 
 <a id="li-link" href="https://www.linkedin.com/in/shalagin-egor/">
-    <img align="left"alt="Egor's LinkedIN" width="30px"  src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/icons/email.png"></a>
+    <img align="left"alt="Egor's LinkedIN" width="30px"  src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/icons/email.svg"></a>
 
 <a id="gh-link" href="https://github.com/Wild-Queue/"> 
     <img align="left"  alt="Egor's LinkedIN" width="30px" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/icons/github.svg"></a>
@@ -14,9 +14,11 @@
 
 Hi, I'm Egor Shalagin, a keen full-stack software engineer from Russia. My passion for software is coming up with ideas and bringing them to life by creating useful and usable services. I pay a lot of attention to learning new areas of programming and the quality of the code of what i create.
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/developers-gif.gif" width="400" height="300" />
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/developers-gif.gif" width="400" height="300" style="margin: 0 5% 0 0" />
 
-**languages and tools:** 
+<br/>
+
+**languages and tools:**
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"></code>
