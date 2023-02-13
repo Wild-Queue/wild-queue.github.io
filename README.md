@@ -31,4 +31,4 @@ Hi, I'm Egor Shalagin, a keen full-stack software engineer from Russia. My passi
 
 📈 Github stats
 
-<p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=wild-queue&show_icons=true&theme=gotham" alt="Wild-Queue" width="350px" />
+<p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=wild-queue&show_icons=true&theme=gotham" alt="Wild-Queue" width="375px" />
