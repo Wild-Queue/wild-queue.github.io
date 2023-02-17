@@ -4,8 +4,8 @@
         <title>Protfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
-        <div style="width: 900px; margin: auto; margin-top: 2%;">
+    <body style="background-color:darkcyan">
+        <div style="width: 900px; margin: auto; margin-top: 2%; background-color: whitesmoke; padding: 1.5%; border-radius: 1%;">
             <div style="height: max-content;">
                 <h1 style="margin: 0 0 10px 10px;">Shalagin Egor</h1>
                 <img alt="Shalagin Egor" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png" 
@@ -96,6 +96,42 @@
                     <p style="margin: 0 0 0 0;">Bachelor's Degree</p>
                     <p style="margin: 0 0 0 0;">2020 - 2024 </p>
                 </div>
+            </div>
+        </div>
+
+        <div style="width: max-content; min-width: 300px; margin: auto; margin-top: 2%; background-color: whitesmoke; padding: 1%;">
+            <div align="center">
+                <h1>Maybe you want a comic))</h1>
+                <h2 id="comic-title"></h2>
+                <img id="comic" style="float: top;"></img>
+            </div>
+            <div align="center" style="margin-top: 1%;">
+                <button id="comic-btn" style="border-radius: 5px; background-color:greenyellow; height: 25px;">Get me a comic</button>
+
+                <script>
+                    const btn = document.getElementById('comic-btn');
+                    btn.addEventListener('click', getComic);
+        
+                    const comic = document.getElementById('comic')
+                    const comic_title = document.getElementById('comic-title')
+        
+                    async function getComic(){
+                        const res = await fetch("https://fwd.innopolis.app/api/hw2?email=e.shalagin@innopolis.university");
+                        const data = await res.json();
+                        
+                        const second_request = "https://getxkcd.vercel.app/api/comic?num=" + data;
+                        const second_res = await fetch(second_request);
+                        const second_data = await second_res.json();
+                        
+                        let date_img = new Date(); 
+                        comic_title.innerText = second_data.title + "\n Upload date: " + date_img.toLocaleDateString("en-GB")
+
+                        comic.src = second_data.img
+                        comic.title = second_data.safe_title
+                        comic.alt = second_data.alt
+                        console.log(second_data);
+                    }
+                </script>
             </div>
         </div>
     </body>
