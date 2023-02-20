@@ -4,7 +4,7 @@
         <title>Protfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body style="background-color:darkcyan">
+    <body style="background-color:darkcyan" onload="getComic()">
         <div style="width: 900px; margin: auto; margin-top: 2%; background-color: whitesmoke; padding: 1.5%; border-radius: 1%;">
             <div style="height: max-content;">
                 <h1 style="margin: 0 0 10px 10px;">Shalagin Egor</h1>
@@ -101,17 +101,16 @@
 
         <div style="width: max-content; min-width: 300px; margin: auto; margin-top: 2%; background-color: whitesmoke; padding: 1%;">
             <div align="center">
-                <h1>Maybe you want a comic))</h1>
                 <h2 id="comic-title"></h2>
                 <img id="comic" style="float: top;"></img>
             </div>
             <div align="center" style="margin-top: 1%;">
-                <button id="comic-btn" style="border-radius: 5px; background-color:greenyellow; height: 25px;">Get me a comic</button>
+                <button id="comic-btn" style="border-radius: 5px; background-color:greenyellow; height: 25px;">Get new comic</button>
 
                 <script>
                     const btn = document.getElementById('comic-btn');
                     btn.addEventListener('click', getComic);
-        
+
                     const comic = document.getElementById('comic')
                     const comic_title = document.getElementById('comic-title')
         
