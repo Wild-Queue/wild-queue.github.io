@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Protfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background-color:darkcyan" onload="getComic()">
+<body style="background-color:darkcyan">
     <div
         style="width: 900px; margin: auto; margin-top: 2%; background-color: whitesmoke; padding: 1.5%; border-radius: 1%;">
         <div style="height: max-content;">
             <h1 style="margin: 0 0 10px 10px;">Shalagin Egor</h1>
-            <img alt="Shalagin Egor" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
+            <img title="Shalagin Egor" alt="Shalagin Egor" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
                 width="200" style="float:left; margin: 0 10px 0 10px;">
             <div style="float:left; border-left: 4px solid black; height: 170px; margin: 0 7px 0 0;"></div>
             <div style="font-size: 20px;">Software development student in Innopolis. 2-year experience in back-end
@@ -21,8 +21,8 @@
                 and maintaining complex software structures and providing a user-friendly interface.
                 <br>English Upper-Intermediate.
             </div>
+
             <div style="font-size: 20px;">
-                <!-- <a href="https://t.me/Shalagin_Egor"> <i class="fa fa-telegram" style="font-size:20px;color:blue; margin: 15px 0 0 0;"></i>@Shalagin_Egor</a>-->
                 <a id="tg-link" href="https://t.me/Shalagin_Egor"> <i class="fa fa-telegram"
                         style="font-size:20px;color:blue; margin: 15px 3px 0 0;"></i>@Shalagin_Egor</a>
                 <a id="li-link" href="https://www.linkedin.com/in/shalagin-egor/"> <i class="fa fa-linkedin"
@@ -39,7 +39,7 @@
 
         <div>
             <h1> Work experience</h1>
-            <div style="float:top; border-top: 1px solid grey; width: 900px; margin: -2% 0 4% 0;"></div>
+            <div style="border-top: 1px solid grey; width: 900px; margin: -2% 0 4% 0;"></div>
 
             <ul style="height: max-content; margin-top: 2%; margin-left: 0px;">
                 <li>
@@ -92,25 +92,27 @@
         </div>
 
         <div style="height: max-content; margin-top: 2%; margin-left: 10px;">
-            <div style="float:top; border-top: 1px solid grey; width: 900px; margin: 0 0 0 0;"></div>
+            <div style="border-top: 1px solid grey; width: 900px; margin: 0 0 0 0;"></div>
 
             <div style="margin: 0 10px 0 10px;">
                 <h3>Hard skills:</h3>
-                <p style="margin: -10px 0 0 0;"><b>С++, Python, C#</b>, Java, JavaScript, Haskell</p>
+                <p style="margin: -10px 0 0 0;"><b>С++, Python, C#</b>, JavaScript, TypeScript, Haskell</p>
                 <p style="margin: 5px 0 0 0;"><b>Git, Docker, Linux</b>, PostgreSQL, Flask,<br> Peewee, SocketIO, Bison
                     GNU</p>
                 <p style="margin: 5px 0 0 0;">Agile, Scrum</p>
             </div>
-            <div style="margin: -132px 0 0 325px;">
-                <h3>Soft skills:</h3>
-                <p style="margin: -13px 0 0 0;">Stress resistent<br>
-                    Good working under time pressure <br>
-                    Flexible<br>
-                    Teamworker<br>
-                    Helpful</p>
+            <div style="margin: -133px 0 0 325px;">
+                <h3 style="margin: 20px 0 -7px 20px;">Soft skills:</h3>
+                <ul>
+                    <li>Stress resistent</li>
+                    <li>Good working under time pressure</li>
+                    <li>Flexible</li>
+                    <li>Teamworker</li>
+                    <li>Helpful</li>
+                </ul>
             </div>
 
-            <div style="margin: -135px 0 0 600px;">
+            <div style="margin: -137px 0 0 600px;">
                 <h3>Languages:</h3>
                 <p style="margin: -13px 0 0 0;">English: Upper-Intermediate</p>
             </div>
@@ -118,7 +120,7 @@
             <div style="margin: 0px 0 0 600px;">
                 <h3>Education:</h3>
                 <p style="margin: -13px 0 0 0;"> <b>Innopolis University <br> Software engineer</b></p>
-                <p style="margin: 0 0 0 0;">Bachelor's Degree</p>
+                <p style="margin: 5px 0 0 0;">Bachelor's Degree</p>
                 <p style="margin: 0 0 0 0;">2020 - 2024 </p>
             </div>
         </div>
@@ -126,41 +128,18 @@
 
     <div
         style="width: max-content; min-width: 300px; margin: auto; margin-top: 2%; background-color: whitesmoke; padding: 1%;">
-        <div >
-            <h2 id="comic-title" >Comic name: </h2>
-            <img id="comic" style="float: top;" src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/downloading.png"
+        <div>
+            <h2 id="comic-title" style="margin-left: 25%;">Comic name: </h2>
+            <img id="comic" style="margin-left: 15%;"
+                src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/downloading.gif"
                 alt="Downloading the comic...">
         </div>
         <div style="margin-top: 1%;">
-            <button id="comic-btn" style="border-radius: 5px; background-color:greenyellow; height: 25px; margin-left: 40%;">Get new
+            <button id="comic-btn" style="border-radius: 5px; background-color:greenyellow; height: 25px;">Get new
                 comic</button>
-
-            <script>
-                const btn = document.getElementById('comic-btn');
-                btn.addEventListener('click', getComic);
-
-                const comic = document.getElementById('comic')
-                const comic_title = document.getElementById('comic-title')
-
-                async function getComic() {
-                    const res = await fetch("https://fwd.innopolis.app/api/hw2?email=e.shalagin@innopolis.university");
-                    const data = await res.json();
-
-                    const second_request = "https://getxkcd.vercel.app/api/comic?num=" + data;
-                    const second_res = await fetch(second_request);
-                    const second_data = await second_res.json();
-
-                    let date_img = new Date(Date.UTC(second_data.year, second_data.month - 1, second_data.day));
-                    comic_title.innerText = comic_title.innerText + " " + second_data.title + "\n Upload date: " + date_img.toLocaleDateString("en-GB")
-
-                    comic.src = second_data.img
-                    comic.title = second_data.safe_title
-                    comic.alt = second_data.alt
-                    console.log(second_data);
-                }
-            </script>
         </div>
     </div>
+    <script src="/dist/bundler.js"> </script>
 </body>
 
 </html>
