@@ -9,7 +9,6 @@
     "build": "rollup --config rollup.config.js",
     "watch": "rollup --config rollup.config.js --watch",
     "compile": "tsc ",
-    "start": "tsc && rollup --config rollup.config.js",
     "validate": "html-validator --quiet"
   },
   "repository": {
@@ -28,6 +27,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "rollup": "^3.18.0",
     "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
     "w3c-html-validator": "^1.3.2"
   }
 }

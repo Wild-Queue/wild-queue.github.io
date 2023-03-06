@@ -27,6 +27,7 @@ async function getComic() {
     const comicRequest : string = "https://getxkcd.vercel.app/api/comic?num=" + comicNumber.toString();
     const comicResponse : Response = await fetch(comicRequest);
     const comicJSON : comitJSONType = await comicResponse.json();
+    console.log(comicJSON)
 
     let comicDate : Date = new Date(Date.UTC(+comicJSON.year, +comicJSON.month - 1, +comicJSON.day));
     comicTitle.innerText = "Comic name: " + comicJSON.title + "\n Upload date: " + comicDate.toLocaleDateString("en-GB")
