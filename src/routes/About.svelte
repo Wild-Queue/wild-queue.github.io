@@ -1,13 +1,14 @@
-<div style="font-size: 20px;">
+
+<div style="font-size: 125%;">
     Software development student in Innopolis. 2-year experience in back-end
-    development with C++, Python and C# and front-end development with
+    development with C++, C# and Python and front-end development with
     JavaScript.
     <br />Flexible, stress resistent, good at working under time pressure. I am
     passionate about developing and maintaining complex software structures and
     providing a user-friendly interface.
     <br />English Upper-Intermediate.
-
-    <div style="font-size: 90%;">
+    <br />
+    <div style="font-size: 90%; margin: 15px 0 0 25%">
         <a id="tg-link" href="https://t.me/Shalagin_Egor">
             <i class="fa fa-telegram"/>@Shalagin_Egor
         </a>
@@ -25,9 +26,12 @@
 </div>
 
 <style>
+    a {
+        color: rgb(30, 30, 211);
+        margin: 0 1% 0 0;
+    }
     i {
-        font-size: 20px;
-        color: blue;
-        margin: 15px 3px 0 10px;
+        color: rgb(30, 30, 211);
+        margin-right: 0.5%;
     }
 </style>
