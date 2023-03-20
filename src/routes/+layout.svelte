@@ -10,6 +10,9 @@
 		<slot />
 	</main>
 
+	<footer>
+		<p>The website is developed by Shalagin Egor</p>
+	</footer>
 </div>
 
 <style>

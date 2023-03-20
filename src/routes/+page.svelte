@@ -1,53 +1,59 @@
 <script lang="ts">
-	import About from './About.svelte';
-	import HardSkills from './HardSkills.svelte';
-	import { Experiences } from './WorkExperience';
-	import WorkExperienceItem from './WorkExperienceItem.svelte';
-	import SoftSkills from './SoftSkills.svelte';
-	import Languages from './Languages.svelte';
-	import Education from './Education.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Portfolio</title>
+	<meta name="description" content="Shalagin Egor portfolio on github page" />
 </svelte:head>
 
-<section>
-	<div style="height: max-content;">
-		<h1 style="margin: 0 0 10px 10px;">Shalagin Egor</h1>
-		<img
-			title="Shalagin Egor"
-			alt="Shalagin Egor"
-			src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
-			width="200"
-			style="float:left; margin: 0 10px 0 10px;"
-		/>
-		<div title="Vertical Line" class="vertical_line" />
+<div>
+	<h1>Hello everyone, my name is Shalagin Egor and everyone you see on this page is me</h1>
+	<img
+		title="ShalaginEgor6"
+		alt="ShalaginEgor6"
+		src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
+		width="225"
+		style="float:left; margin: 0 10px 0 10px; transform: rotate(15deg);"
+	/>
+	<img
+		title="ShalaginEgor5"
+		alt="ShalaginEgor5"
+		src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
+		width="250"
+		style="float:left; margin: 50px 0 0 50px; rotate(15deg);"
+	/>
 
-		<About />
-	</div>
+	<img
+		title="ShalaginEgor4"
+		alt="ShalaginEgor4"
+		src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
+		width="220"
+		style="float:left; margin: 0 0 0 50px; transform: rotate(7deg);"
+	/>
 
-	<h1>Work experience</h1>
-	<div title="Line" style="border-top: 1px solid grey; width: 900px; margin: -2% 0 4% 0;" />
+	<img
+		title="ShalaginEgor3"
+		alt="ShalaginEgor3"
+		src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
+		width="220"
+		style="float:left; margin: 200px 20px 0 10px;"
+	/>
 
-	<ul style="height: max-content; margin-top: 2%; margin-left: 0px;">
-		{#each Experiences as experience}
-			<WorkExperienceItem {experience} />
-		{/each}
-	</ul>
-
-	<div style="height: max-content; margin-top: 2%; margin-left: 10px;">
-		<div title="Line" style="border-top: 1px solid grey; width: 900px; margin: 0 0 0 0;" />
-
-		<div style="display: inline-block;">
-			<HardSkills />
-			<SoftSkills />
-			<Languages />
-			<Education />
-		</div>
-	</div>
-</section>
+	<img
+		title="ShalaginEgor2"
+		alt="ShalaginEgor2"
+		src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/face.png"
+		width="220"
+		style="float:left; margin: 200px 20px 0 10px;"
+	/>
+	<img
+		title="ShalaginEgor1"
+		alt="ShalaginEgor1"
+		src="https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/ShalaginEgor1.jpg"
+		width="200"
+		style="float:left; margin: 0 10px 0 10px;"
+	/>
+</div>
 
 <style>
 	section {
