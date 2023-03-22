@@ -2,25 +2,14 @@
 	import type { WorkExperience } from './WorkExperience';
 
 	export let experience: WorkExperience;
-
-	let linkID: string = '';
-	let linkClass: string = '';
-	if (experience.href.includes('gitlab')) {
-		linkID = 'gl-link';
-		linkClass = 'fa fa-gitlab';
-	}
-	if (experience.href.includes('github')) {
-		linkID = 'gl-link';
-		linkClass = 'fa fa-github';
-	}
 </script>
 
 <li>
 	<h2>{experience.position}</h2>
 	<h3>{experience.place}</h3>
 	<p>{experience.description}</p>
-	{#if experience.href !== ''}
-		<a id={linkID} href={experience.href}> <i class={linkClass} />Wild-Queue</a>
+	{#if experience.href !== undefined}
+		<a id={experience.linkID} href={experience.href}> <i class={experience.linkClass} />Wild-Queue</a>
 	{/if}
 </li>
 
