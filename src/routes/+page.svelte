@@ -11,14 +11,14 @@
 	<img
 		title="ShalaginEgor6"
 		alt="ShalaginEgor6"
-		scr="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor6.jpg"
+		src="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor6.jpg"
 		width="225"
 		style="float:left; margin: 0 10px 0 70px; transform: rotate(15deg);"
 	/>
 	<img
 		title="ShalaginEgor5"
 		alt="ShalaginEgor5"
-		scr="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor5.jpg"
+		src="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor5.jpg"
 		width="250"
 		style="float:left; margin: 50px 0 0 50px; transform: rotate(-8deg);"
 	/>
@@ -26,7 +26,7 @@
 	<img
 		title="ShalaginEgor4"
 		alt="ShalaginEgor4"
-		scr="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor4.jpg"
+		src="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor4.jpg"
 		width="220"
 		style="float:left; margin: 50px 0 0 50px; transform: rotate(15deg);"
 	/>
@@ -34,7 +34,7 @@
 	<img
 		title="ShalaginEgor3"
 		alt="ShalaginEgor3"
-		scr="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor3.jpg"
+		src="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor3.jpg"
 		width="220"
 		style="float:right; margin: 80px 20px 0 20px; transform: rotate(8deg);"
 	/>
@@ -42,14 +42,14 @@
 	<img
 		title="ShalaginEgor2"
 		alt="ShalaginEgor2"
-		scr="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor2.jpg"
+		src="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor2.jpg"
 		width="220"
 		style="float:right; margin: 80px 20px 0 10px;"
 	/>
 	<img
 		title="ShalaginEgor1"
 		alt="ShalaginEgor1"
-		scr="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor1.jpg"
+		src="https://raw.githubusercontent.com/Wild-Queue/FWDPictureSaving/main/ShalaginEgor1.jpg"
 		width="250"
 		style="float:right; margin: 40px 50px 0 10px; transform: rotate(-15deg);"
 	/>
