@@ -9,6 +9,29 @@ export interface WorkExperience {
 
 export let Experiences: WorkExperience[] = [
   {
+    position: "Full-stack developer",
+    place: "Innopolis University 2023",
+    description: `
+          Developed a soccial network "SocioCluv" inspired by Twitter. Provides the ability
+          to create an account, write posts, "like" them and write comments. Developed 
+          back-end server on C# with database on Firestore and front-end server
+          on TypeScript SvelteKit. `,
+    linkID : "gh-link",
+    linkClass: 'fa fa-github',
+    href: "https://github.com/Wild-Queue/sociocluv",
+  },
+  {
+    position: "C++ developer",
+    place: "Innopolis University 2023",
+    description: `
+          Developed a static alanyser for the functional programming language.
+          Implemented a type checker that checks if constructions used in the program
+          is correctly typed. Used tools: cmake, clang, BNFC, flex, bison`,
+    linkID : "gh-link",
+    linkClass: 'fa fa-github',
+    href: "https://github.com/Wild-Queue/stella",
+  },
+  {
     position: "C++ developer",
     place: "Innopolis University 2023",
     description: `
@@ -41,30 +64,10 @@ export let Experiences: WorkExperience[] = [
   },
   {
     position: "Students representative",
-    place: "Innopolis University 2022-2023",
+    place: "Innopolis University 2022-2024",
     description: `
           Student representative at Innopolis University. I deal with issues
           between the students and the university. I notify students of various
           changes and solve organizational issues.`,
-  },
-  {
-    position: "Python developer",
-    place: "Ekaterinburg 2022",
-    description: `
-          Developed a telegram bot for storing and sending reminders. Developed
-          a reminder bot whose main functions are: to help group/company leaders
-          send out reminders and tasks to be done. Personally involved in the
-          architecture, implementation and interaction with the database.`,
-  },
-  {
-    position: "Compiler constructor",
-    place: "Innopolis University 2021",
-    description: `
-          Developed a syntactic parser for the Golang language compiler.
-          Implemented a syntactic parser that handles all possible language
-          constructions. Provided an interface for further work with the parser.`,
-    linkID : "gh-link",
-    linkClass: 'fa fa-github',
-    href: "https://github.com/Wild-Queue/Go_Bison_Project",
   },
 ];
