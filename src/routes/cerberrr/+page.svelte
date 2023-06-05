@@ -10,11 +10,11 @@
     let secondTicketContent: string = "";
 
     async function getRandTicket() {
+        console.log("getRandTicket");
         secondTicketNumber = 1;
         secondTicketIndex = 0;
         secondTicketContent = "";
 
-        console.log("getRandTicket");
         console.log(ticketIndex, ticketNumber, ticketContent);
         ticketIndex = Math.floor(Math.random() * (58 - 0) + 0); // 
         ticketNumber = Tickets[ticketIndex].number;
@@ -23,11 +23,11 @@
     }
 
     async function setNewTicket() {
+        console.log("setNewTicket");
         secondTicketNumber = 1;
         secondTicketIndex = 0;
         secondTicketContent = "";
 
-        console.log("setNewTicket");
         console.log(ticketIndex, ticketNumber, ticketContent);
         for(let i:number = 0; i < 59; i++){
             if (ticketNumber === Tickets[i].number){
@@ -99,7 +99,4 @@
     <h2 style="margin-left: 25%;"><b>Second Ticket Number:</b> {secondTicketNumber}</h2>
     <h4>{secondTicketContent}</h4>
     {/if}
-    {#each Tickets as ticket}
-        <p>{ticket.text}</p>
-    {/each}
 </div>
