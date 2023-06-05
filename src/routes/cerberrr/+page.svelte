@@ -73,20 +73,20 @@
     <div>
         <button
             id="ramdon-ticket"
-            on:click|preventDefault={getRandTicket}
+            on:click={getRandTicket}
             style="border-radius: 5px; background-color:greenyellow; height: 25px;">
             Get random ticket
         </button>
         <input type="number" id="ticket-number" bind:value={ticketNumber} min="1" max="60">
         <button
             id="list-tickets"
-            on:click|preventDefault={setNewTicket}
+            on:click={setNewTicket}
             style="border-radius: 5px; background-color:greenyellow; height: 25px;">
             Set ticket number
         </button>
         <button
             id="two-tickets"
-            on:click|preventDefault={getTwoTickets}
+            on:click={getTwoTickets}
             style="border-radius: 5px; background-color:greenyellow; height: 25px;">
             Get two tickets
         </button>
@@ -98,4 +98,7 @@
     <h2 style="margin-left: 25%;"><b>Second Ticket Number:</b> {secondTicketNumber}</h2>
     <h4>{secondTicketContent}</h4>
     {/if}
+    {#each Tickets as ticket}
+        <p>{ticket.text}</p>
+    {/each}
 </div>
