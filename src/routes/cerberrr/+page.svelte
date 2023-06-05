@@ -10,20 +10,17 @@
     let secondTicketContent: string = "";
 
     async function getRandTicket() {
-        
         secondTicketNumber = 1;
         secondTicketIndex = 0;
         secondTicketContent = "";
 
-        
-        ticketIndex = Math.floor(Math.random() * (58 - 0) + 0); // 
+        ticketIndex = Math.floor(Math.random() * (58 - 0) + 0); 
         ticketNumber = Tickets[ticketIndex].number;
         ticketContent = Tickets[ticketIndex].text;
         
     }
 
     async function setNewTicket() {
-        
         secondTicketNumber = 1;
         secondTicketIndex = 0;
         secondTicketContent = "";
@@ -45,16 +42,12 @@
     }
 
     async function getTwoTickets() {
-        
-        
-        ticketIndex = Math.floor(Math.random() * (24 - 0) + 0); // 
+        ticketIndex = Math.floor(Math.random() * (24 - 0) + 0); 
         ticketNumber = Tickets[ticketIndex].number;
         ticketContent = Tickets[ticketIndex].text;
 
         
-        
-
-        secondTicketIndex = Math.floor(Math.random() * (58 - 25) + 25); // 
+        secondTicketIndex = Math.floor(Math.random() * (58 - 25) + 25); 
         secondTicketNumber = Tickets[secondTicketIndex].number;
         secondTicketContent = Tickets[secondTicketIndex].text;   
         
