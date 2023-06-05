@@ -16,9 +16,12 @@
         secondTicketIndex = 0;
         secondTicketContent = "";
 
+        console.log("getRandTicket");
+        console.log(ticketIndex, ticketNumber, ticketContent);
         ticketIndex = Math.floor(Math.random() * (58 - 0) + 0); // 
         ticketNumber = Tickets[ticketIndex].number;
         ticketContent = Tickets[ticketIndex].text;
+        console.log(ticketIndex, ticketNumber, ticketContent);
     }
 
     async function setNewTicket() {
@@ -26,6 +29,8 @@
         secondTicketIndex = 0;
         secondTicketContent = "";
 
+        console.log("setNewTicket");
+        console.log(ticketIndex, ticketNumber, ticketContent);
         for(let i:number = 0; i < 59; i++){
             if (ticketNumber === Tickets[i].number){
                 ticketIndex = i;
@@ -35,20 +40,26 @@
             ticketIndex = 42;
             ticketNumber = 43;
         }
-         // 
+        
         ticketNumber = Tickets[ticketIndex].number;
         ticketContent = Tickets[ticketIndex].text;
+        console.log(ticketIndex, ticketNumber, ticketContent);
     }
 
     async function getTwoTickets() {
+        console.log("getTwoTickets");
+        console.log(ticketIndex, ticketNumber, ticketContent);
         ticketIndex = Math.floor(Math.random() * (24 - 0) + 0); // 
         ticketNumber = Tickets[ticketIndex].number;
         ticketContent = Tickets[ticketIndex].text;
 
+        console.log(ticketIndex, ticketNumber, ticketContent);
+        console.log(secondTicketIndex, secondTicketNumber, secondTicketContent);
 
         secondTicketIndex = Math.floor(Math.random() * (58 - 25) + 25); // 
         secondTicketNumber = Tickets[secondTicketIndex].number;
         secondTicketContent = Tickets[secondTicketIndex].text;   
+        console.log(secondTicketIndex, secondTicketNumber, secondTicketContent);
     }
 
 </script>
