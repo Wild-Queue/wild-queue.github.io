@@ -60,6 +60,7 @@
         console.log(secondTicketIndex, secondTicketNumber, secondTicketContent);
     }
 
+    getRandTicket();
 </script>
 
 <svelte:head>
