@@ -1,12 +1,10 @@
 <script lang="ts">
-    import type { comitJSONType } from "./Tickets";
     import { Tickets } from "./Tickets";
 
 
     let ticketNumber: number = 1;
     let ticketIndex: number = 0;
     let ticketContent: string = "Части речи в русском языке. История и современность. Знаменательные и служебные части речи.";
-    // let comicSrc: string = "https://raw.githubusercontent.com/Wild-Queue/portfolio/main/pictures/downloading.gif";
     let secondTicketNumber: number = 1;
     let secondTicketIndex: number = 0;
     let secondTicketContent: string = "";
