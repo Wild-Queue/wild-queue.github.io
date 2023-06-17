@@ -1,4 +1,4 @@
-import{S as le,i as re,s as ae,k as a,q as $,a as w,l as n,m as c,r as I,c as S,h as r,n as y,p as m,b as K,E as t,F as Q,u as pe,T as me,y as ne,L as ke,z as ie,M as be,A as se,g as j,f as xe,d as Z,B as oe,U as $e,v as Ie}from"../chunks/index.1f3fd3f4.js";function we(U){let e,i,l,u,h,g,v,s,_,d,p,H,C,o,E,k,b,D,L,f,R,B,A,N,F,T;return{c(){e=a("div"),i=$(`Software development student in Innopolis. 2-year experience in back-end
+import{S as le,i as re,s as ae,k as a,q as $,a as w,l as n,m as c,r as I,c as S,h as r,n as y,p as m,b as K,E as t,F as Q,u as pe,U as me,y as ne,L as ke,z as ie,M as be,A as se,g as j,f as xe,d as Z,B as oe,T as $e,v as Ie}from"../chunks/index.fb6ccc0d.js";function we(U){let e,i,l,u,h,g,v,s,_,d,p,H,C,o,E,k,b,D,L,f,R,B,A,N,F,T;return{c(){e=a("div"),i=$(`Software development student in Innopolis. 2-year experience in back-end
     development with C++, C# and Python and front-end development with
     JavaScript.
     `),l=a("br"),u=$(`Flexible, stress resistent, good at working under time pressure. I am
